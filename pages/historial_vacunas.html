@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunautas - Principal</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="../assets/img/logo.png" alt="Vacunautas"></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="principal.html">Carnet Digital</a></li>
+                <li><a href="creditos.html">Créditos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section id="superior">
+        <h1>HISTORIAL DE VACUNAS</h1>
+        <h3>NOMBRE: Juan Caaalo García | Edad: 36 meses | NUIP: 1090000212 <button style="float: right;">Guardar</button><span ></span></h3>
+
+    </section>
+    <section id="contenido">
+        <table border="1">
+            <tr> 
+                <th>Vacuna contra</th>
+                <th>Dosis</th>
+                <th>Fecha Programada</th>
+                <th>Fecha de Aplicación</th>
+                <th>Laboratorio</th>
+                <th>Nº de Lote</th>
+                <th>IPS Vacunadora</th>
+                <th>Nombre del vacunador</th>
+                <th>Estado</th>
+            </tr>
+            <tr>
+                <td>Tuberculosis B.C.G</td>
+                <td>Única</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly> </td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><select name="laboratorio" id="laboratorio" disabled>
+                    <option value="Intervax">Intervax</option>
+                </select></td>
+                <td><input type="text" id="lote" readonly value="865-2"></td>
+                <td><select name="ips" id="ips" disabled>
+                    <option value="Hospital Nieves">Hospital Nieves</option>
+                </select></td>
+                <td><input type="text" id="vacunador" readonly value="Marlene"></td>
+                <td><select name="estado" id="estado" disabled>
+                    <option value="Aplicada">Aplicada</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Hepatitis B</td>
+                <td>Recién Nacido</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><select name="laboratorio" id="laboratorio" disabled>
+                    <option value="Intervax">Intervax</option>
+                </select></td>
+                <td><input type="text" id="lote" readonly value="865-2"></td>
+                <td><select name="ips" id="ips" disabled>
+                    <option value="Hospital Nieves">Hospital Nieves</option>
+                </select></td>
+                <td><input type="text" id="vacunador" readonly value="Marlene"></td>
+                <td><select name="estado" id="estado" disabled>
+                    <option value="Aplicada">Aplicada</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Polio (Oral -IM)</td>
+                <td>Primera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>PENTAVALENTE: Hepatitis B, Haemophilus Influenzae Tipo b y Difteria - Tosferina - Tetáno (DPT)</td>
+                <td>Primera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Rotavirus</td>
+                <td>Primera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Neumococo</td>
+                <td>Primera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Polio (Oral - IM)</td>
+                <td>Segunda</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>PENTAVALENTE: Hepatitis B, Haemophilus Influenzae Tipo b y Difteria - Tosferina - Tetáno (DPT)</td>
+                <td>Segunda</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Rotavirus</td>
+                <td>Segunda</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Neumococo</td>
+                <td>Segunda</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Polio (Oral - IM)</td>
+                <td>Tercera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>PENTAVALENTE: Hepatitis B, Haemophilus Influenzae Tipo b y Difteria - Tosferina - Tetáno (DPT)</td>
+                <td>Tercera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Influenza</td>
+                <td>Primera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Influenza</td>
+                <td>Segunda</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Sarampión Rubéola Paperas (SRP)</td>
+                <td>Primera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Fiebre Amarilla</td>
+                <td>Primera</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Neumococo</td>
+                <td>Refuerzo</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Influenza</td>
+                <td>Anual</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Hepatitis A</td>
+                <td>Única</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Difteria - Tosferina Tétano (DPT)</td>
+                <td>Primer Refuerzo</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Polio (Oral - IM)</td>
+                <td>Primer Refuerzo</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Polio (Oral - IM)</td>
+                <td>Segundo Refuerzo</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Difteria - Tosferina Tétano (DPT)</td>
+                <td>Segundo Refuerzo</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Sarampión Rubéola Paperas (SRP)</td>
+                <td>Refuerzo</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Marlene</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Varicela</td>
+                <td>Única</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Refuerzo</td>
+                <td>Aplicada</td>
+            </tr>
+            <tr>
+                <td>Varicela</td>
+                <td>Única</td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td><input type="date" name="fecha_programada" id="fecha_programada" value="2015-07-28" readonly></td>
+                <td>Intervax</td>
+                <td>865-2</td>
+                <td>Hospital Nieves</td>
+                <td>Única</td>
+                <td>Aplicada</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

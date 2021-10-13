@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/vacunas.css">
+    <title>Vacunautas - Principal</title>
+</head>
+<body>
+    <header>
+        <!--<div id="logo"><img src="../assets/img/logo.png" alt="Vacunautas"></div>-->
+        <nav class="navbar navbar-expand-lg navbar-light text-white" style="background-color: #2DB8C5;">
+            <div class="container-fluid text-white">
+              <a class="navbar-brand text-white" href="#">Vacunautas</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="vacunas.html">Vacunas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Créditos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Elizabeth Peña</a></li>
+                      <li><a class="dropdown-item" href="#">Daniel Barros</a></li>
+                      <li><a class="dropdown-item" href="#">Daniel Martínez</a></li>
+                      <li><a class="dropdown-item" href="#">Jorge Lopera</a></li>
+                      <li><a class="dropdown-item" href="#">Jairo Huertas</a></li>
+                      <li><a class="dropdown-item" href="#">Franklin Gómez</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div style="margin-top: 50px;">
+        <section id="superior">
+            <h1 style="text-align: center; margin-bottom: 50px;">EDITAR VACUNA</h1>
+        </section>
+    </div>
+    <form>
+    <section id="contenido">
+        <div class="container border" style="padding:30px;">
+            <div class="row">
+              <div class="col">
+                <div class="col">
+                    <label for="nombre" class="form-label">Nombre Vacuna</label>
+                    <input type="text" class="form-control" id="nombre" aria-describedby="nombreDesc">
+                    <div id="nombreDesc" class="form-text">Máximo 100 caracteres permitidos.</div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="col">
+                    <label for="nombre" class="form-label">Laboratorio</label>
+                    <input type="text" class="form-control" id="nombre" aria-describedby="nombreDesc">
+                    <div id="nombreDesc" class="form-text">Máximo 100 caracteres permitidos.</div>
+                </div>
+              </div>   
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col">
+                    <div class="col">
+                        <label for="nombre" class="form-label">Dosis</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>---- Seleccione ----</option>
+                            <option value="1">Recien Nacido</option>
+                            <option value="1">Única</option>
+                            <option value="2">Primera</option>
+                            <option value="3">Segunda</option>
+                            <option value="3">Tercera</option>
+                            <option value="3">Primer Refuerzo</option>
+                            <option value="3">Segundo Refuerzo</option>
+                            <option value="3">Anual</option>
+                          </select>
+                        
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <label for="nombre" class="form-label">Nº de Lote</label>
+                        <input type="text" class="form-control" id="nombre" aria-describedby="nombreDesc">
+                        <div id="nombreDesc" class="form-text">Máximo 20 caracteres permitidos.</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <label for="nombre" class="form-label">Via de Aplicación</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>---- Seleccione ----</option>
+                            <option value="1">Oral</option>
+                            <option value="1">Intramuscular</option>
+                            <option value="2">Intravenosa</option>
+                          </select>
+                    </div>
+                </div>
+              </div>
+          </div>
+        <div class="container" style="margin-top: 30px;">
+            <div style="float:right">
+                <button type="submit" class="btn btn-danger">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Actualizar</button>  
+            </div>   
+        </div>
+    </form>
+    </section>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/dd52afb20f.js" crossorigin="anonymous"></script>
+</body>
+</html>

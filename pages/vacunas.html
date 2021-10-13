@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/vacunas.css">
+    <title>Vacunautas - Principal</title>
+</head>
+<body>
+    <header>
+        <!--<div id="logo"><img src="../assets/img/logo.png" alt="Vacunautas"></div>-->
+        <nav class="navbar navbar-expand-lg navbar-light text-white" style="background-color: #2DB8C5;">
+            <div class="container-fluid text-white">
+              <a class="navbar-brand text-white" href="#">Vacunautas</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Vacunas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Créditos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Elizabeth Peña</a></li>
+                      <li><a class="dropdown-item" href="#">Daniel Barros</a></li>
+                      <li><a class="dropdown-item" href="#">Daniel Martínez</a></li>
+                      <li><a class="dropdown-item" href="#">Jorge Lopera</a></li>
+                      <li><a class="dropdown-item" href="#">Jairo Huertas</a></li>
+                      <li><a class="dropdown-item" href="#">Franklin Gómez</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <div style="margin-top: 50px;">
+        <section id="superior">
+            <h1 style="text-align: center; margin-bottom: 50px;">VACUNAS</h1>
+        </section>
+    </div>
+    <div class="container">
+        <section id="contenido">
+            <div>
+                <div style="float:left">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar Vacuna" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                </div>
+                <div style="float: right;margin-bottom: 20px">
+                    <a href="agregar_vacuna.html" class="btn btn-primary btn-sm text-white">Agregar Vacuna</a>
+                  </div>
+            </div>
+            
+            <table class="table table-striped table-hover table-bordered">
+                <tr bgcolor="#2DB8C5" class="text-white"> 
+                    <th>ID</th>
+                    <th style="text-align: center;">Vacuna contra</th>
+                    <th class="col-md-2">Dosis</th>
+                    <th>Laboratorio</th>
+                    <th class="col-md-2">Nº de Lote</th>
+                    <th>Acciones</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Tuberculosis B.C.G</td>
+                    <td>Única</td>
+                    
+                    <td>Intervax</td>
+                    <td>865-2</td>
+                    
+                    <td>
+                        <a href="actualizar_vacuna.html" class="btn btn-success btn-sm"><i class="fas fa-sync-alt"></i></a>
+                        <a href="" class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Hepatitis B</td>
+                    <td>Recién Nacido</td>
+                    
+                    <td>Intervax</td>
+                    <td>865-2</td>
+                    
+                    <td>
+                        <a href="actualizar_vacuna.html" class="btn btn-success btn-sm"><i class="fas fa-sync-alt"></i></a>
+                        <a href="" class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Polio (Oral -IM)</td>
+                    <td>Primera</td>
+                    
+                    <td>Intervax</td>
+                    <td>865-2</td>
+                    <td>
+                        <a href="actualizar_vacuna.html" class="btn btn-success btn-sm"><i class="fas fa-sync-alt"></i></a>
+                        <a href="" class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>PENTAVALENTE: Hepatitis B, Haemophilus Influenzae Tipo b y Difteria - Tosferina - Tetáno (DPT)</td>
+                    <td>Primera</td>
+                    
+                    <td>Intervax</td>
+                    <td>865-2</td>
+                    <td>
+                        <a href="actualizar_vacuna.html" class="btn btn-success btn-sm"><i class="fas fa-sync-alt"></i></a>
+                        <a href="" class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td>Rotavirus</td>
+                    <td>Primera</td>
+                    
+                    <td>Intervax</td>
+                    <td>865-2</td>
+                    <td>
+                        <a href="actualizar_vacuna.html" class="btn btn-success btn-sm"><i class="fas fa-sync-alt"></i></a>
+                        <a href="" class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+                
+            </table>
+        </section>
+    </div>
+    
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/dd52afb20f.js" crossorigin="anonymous"></script>
+</body>
+</html>
